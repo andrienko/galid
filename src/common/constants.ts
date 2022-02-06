@@ -1,4 +1,4 @@
-import { KnownField } from 'types';
+import { KnownField } from 'common/types';
 
 export const knownFields = [
   KnownField.Name,

@@ -1,6 +1,6 @@
-import { GameList, GameListEntry, EntryProps, GameListField, KnownField } from 'types';
+import { GameList, GameListEntry, EntryProps, GameListField, KnownField } from 'common/types';
 import { find, sortBy } from 'lodash';
-import { knownFields } from 'const';
+import { knownFields } from 'common/constants';
 
 export const ignoredNodes = ['#text'];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameListEntry } from 'types';
+import { GameListEntry } from 'common/types';
 import { find } from 'lodash';
 
 interface GameTitleProps {

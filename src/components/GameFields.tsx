@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameListField } from 'types';
+import { GameListField } from 'common/types';
 import { GameField } from './fields';
 import styled from 'styled-components';
 

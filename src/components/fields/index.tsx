@@ -1,9 +1,8 @@
 // Reference: https://github.com/Aloshi/EmulationStation/blob/master/GAMELISTS.md
 
 import React from 'react';
-import { GameListField, KnownField } from 'types';
-import { FormGroup, InputGroup } from '@blueprintjs/core';
-import { knownFields } from 'const';
+import { GameListField, KnownField } from 'common/types';
+import { knownFields } from 'common/constants';
 import { useTranslation } from 'logic/translationContext';
 import { StringField } from 'components/fields/StringField';
 import { TextAreaField } from 'components/fields/TextAreaField';

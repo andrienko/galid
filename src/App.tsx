@@ -10,7 +10,7 @@ import 'styled-components/macro';
 import { useGameListContext } from 'logic/gameListContext';
 import { MainMenu } from 'components/MainMenu';
 import { setWindowTitle } from 'osSpecific/tauri';
-import { GameList, GameListEntry } from 'types';
+import { GameList, GameListEntry } from 'common/types';
 
 export const App: React.FC = () => {
   const { gameList, setGameList, selectedGame, setSelectedGameId } = useGameListContext();

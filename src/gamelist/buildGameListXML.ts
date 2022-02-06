@@ -1,4 +1,4 @@
-import { EntryProps, GameList, GameListEntry } from 'types';
+import { EntryProps, GameList, GameListEntry } from 'common/types';
 
 const xsltFormatterStylesheet = new DOMParser().parseFromString(
   `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">

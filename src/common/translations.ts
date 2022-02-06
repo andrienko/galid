@@ -1,5 +1,5 @@
 import { Translations } from 'logic/translationContext';
-import { KnownField } from 'types';
+import { KnownField } from 'common/types';
 
 export const translations: Translations = {
   en: {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameList, GameListEntry } from 'types';
+import { GameList, GameListEntry } from 'common/types';
 
 interface GameListContextState {
   gameList: GameList | undefined;

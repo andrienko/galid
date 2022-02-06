@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import { App } from 'App';
 import domReady from 'domready';
 
-import { GlobalStyles } from 'ambience/globalStyles';
-import 'ambience/cssprop';
+import { GlobalStyles } from 'common/globalStyles';
+import 'common/cssprop';
 
 import 'modern-normalize/modern-normalize.css';
 import '@blueprintjs/core/lib/css/blueprint.css';
 import '@blueprintjs/datetime/lib/css/blueprint-datetime.css';
 
-import { translations } from 'ambience/translations';
+import { translations } from 'common/translations';
 import { TranslationContextProvider } from 'logic/translationContext';
 import { GameListContextProvider } from 'logic/gameListContext';
 import { ActionsContextProvider } from 'logic/actionsContext';

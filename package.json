@@ -1,0 +1,57 @@
+{
+  "name": "galid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "4.0.0-beta.5",
+    "@blueprintjs/datetime": "4.0.0-beta.5",
+    "@blueprintjs/icons": "^3.31.0",
+    "@tauri-apps/api": "^1.0.0-beta.8",
+    "@types/classnames": "^2.3.1",
+    "@types/domready": "^1.0.0",
+    "@types/lodash": "^4.14.178",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.22",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.28.0",
+    "domready": "^1.0.8",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tauri": "tauri",
+    "dev": "tauri dev"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "prettier": "^2.5.1"
+  }
+}

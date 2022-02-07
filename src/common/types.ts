@@ -1,22 +1,23 @@
 export type EntryProps = Record<string, string>;
 
-export type GameListField = {
+export type GameListField<N extends string | KnownField = string> = Readonly<{
   internalId: string;
-  name: string;
+  name: N;
   value: string;
   props: EntryProps;
-};
+}>;
 
-export type GameListEntry = {
+export type GameListEntry = Readonly<{
   props: EntryProps;
   fields: GameListField[];
   internalId: string;
-};
+}>;
 
-export type GameList = {
+export type GameList = Readonly<{
   games: Array<GameListEntry>;
+  fileName: string,
   path: string;
-};
+}>;
 
 export enum KnownField {
   Name = 'name',
@@ -32,4 +33,5 @@ export enum KnownField {
   PlayCount = 'playcount',
   LastPlayed = 'lastplayed',
   Path = 'path',
+  Favorite = 'favorite',
 }

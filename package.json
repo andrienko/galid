@@ -1,18 +1,13 @@
 {
   "name": "galid",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@blueprintjs/core": "4.0.0-beta.5",
-    "@blueprintjs/datetime": "4.0.0-beta.5",
-    "@blueprintjs/icons": "^3.31.0",
+    "@blueprintjs/core": "^4.0.0-beta.12",
+    "@blueprintjs/datetime": "^4.0.0-beta.12",
+    "@blueprintjs/icons": "^4.0.0-beta.6",
+    "@blueprintjs/popover2": "^1.0.0-beta.12",
     "@tauri-apps/api": "^1.0.0-beta.8",
-    "@types/classnames": "^2.3.1",
-    "@types/domready": "^1.0.0",
-    "@types/lodash": "^4.14.178",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "@types/styled-components": "^5.1.22",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
     "domready": "^1.0.8",
@@ -20,9 +15,20 @@
     "modern-normalize": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "@types/classnames": "^2.3.1",
+    "@types/domready": "^1.0.0",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^17.0.15",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.22",
+    "prettier": "^2.5.1",
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,9 +55,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@tauri-apps/cli": "^1.0.0-beta.10",
-    "prettier": "^2.5.1"
   }
 }

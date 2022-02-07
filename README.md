@@ -8,19 +8,24 @@ TODO: Write something here...
 
 ## Todos
 
+- Settings dialog
+- GameList should know its path (to be able to check ROMs and images, and to form paths)
 - Checking rom file existence (highlight missing red maybe)
-- Saving files
 - Images (image, thumb, icon)
-- Folders (at least in read-only mode) (uncollapsed-all fake treeview)
-- Create folders
-- Delete, clone and move games and folders
-- Genre selection (will need to get a list of those)
+- Genre select (will need to get a list of those)
 - File list scanning to generate an empty gamelist (will need to get filenames for each platform, yuk)
-- Bulk editing multiple games
+- Create, delete, clone and rearrange games
+- Folders (at least in read-only mode, at least without contents)
+- Create empty folders, move files and folders
+- Bulk editing multiple games (folders?)
+- Drag-n-drop images into image selectors (https://github.com/tauri-apps/wry/issues/87#issuecomment-915054980)
+
+## Think about
+
+- Think about reasonable file structure (current one is erratic)
+- Less crappy approach to initializing
+- Better approach to saving settings
 - Tree list memoization (WeakMap sounds good? Should these be mutable maybe?)
-- Drag-n-drop images (https://github.com/tauri-apps/wry/issues/87#issuecomment-915054980)
-
-## Todos - long plans
-
-- Search for developers etc
+- Passing setters as reducers
+- Search for developers and publishers (any good catalog? make own catalog?)
 - Some scraping. Most websites are greedy - so will need kind of an API.
